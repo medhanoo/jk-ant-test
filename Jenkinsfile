@@ -16,7 +16,19 @@ agent any
     
     
     }
+      stage('run code'){
+    
+      steps
+      
+      {
+      
+        sh 'java -jav dist/Main.jar 10'
+      }
+    
+    
+    }
   
+
   
   }
 
