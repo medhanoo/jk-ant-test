@@ -22,7 +22,7 @@ agent any
       
       {
       
-        sh 'java -jav dist/Main.jar 10'
+        sh 'java -jar dist/Main.jar 10'
       }
     
     
