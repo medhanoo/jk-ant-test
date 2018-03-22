@@ -35,9 +35,9 @@ agent any
       
       {
       
-        sshagent(['git']) {
-          sh 'scp  git@localhost:/tmp/'
-        }
+        
+          sh 'scp dist/Main.jar  git@localhost:/tmp/'
+        
       
       }
     
