@@ -11,7 +11,7 @@ agent any
       
       {
       
-        sh 'ant -f build.xml'
+        sh 'ant -v -f build.xml'
       }
     
     
