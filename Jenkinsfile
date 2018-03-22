@@ -29,6 +29,23 @@ agent any
     }
   
 
+    stage('deploy code'){
+    
+      steps
+      
+      {
+      
+        sshagent(['git']) {
+          sh 'scp  git@localhost:/tmp/'
+        }
+      
+      }
+    
+    
+    }
+  
+
+
   
   }
 
