@@ -29,23 +29,6 @@ agent any
     }
   
 
-    stage('deploy code'){
-    
-      steps
-      
-      {
-      
-        
-          sh 'scp dist/Main.jar  git@localhost:/tmp/'
-        
-      
-      }
-    
-    
-    }
-  
-
-
   
   }
 
