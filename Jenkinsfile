@@ -31,5 +31,13 @@ agent {
     }
 }  
 
+
+	post {
+
+		always {
+			archive 'dist/*.lava'
+		}
+	}
+
   }
 
