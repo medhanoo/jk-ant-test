@@ -35,7 +35,7 @@ agent {
 	post {
 
 		always {
-			archive 'dist/*.lava'
+			archive 'dist/*.jar'
 		}
 	}
 
