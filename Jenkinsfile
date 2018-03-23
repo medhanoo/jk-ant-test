@@ -27,7 +27,7 @@ agent any
     
     
     }
-  
+}  
 	post {
 
 	always {
@@ -38,6 +38,5 @@ agent any
 	}
 
   }
-}
 
 
