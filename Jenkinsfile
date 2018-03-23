@@ -1,7 +1,9 @@
 
 pipeline {
 
-agent any
+agent {
+	label 'home'
+}
 
   stages {
   
@@ -30,3 +32,4 @@ agent any
 }  
 
   }
+
