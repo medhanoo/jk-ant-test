@@ -28,13 +28,5 @@ agent any
     
     }
 }  
-	post {
-
-	always {
-
-		archive 'dict/*.jar'
-		}
-
-	}
 
   }
