@@ -35,7 +35,7 @@ agent {
 	post {
 
 		always {
-			archive 'dist/*.jar'
+			archiveArtifacts artifacts: 'dist/*.jar' , figerprint: true
 		}
 	}
 
