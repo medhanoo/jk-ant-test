@@ -46,7 +46,7 @@ stage('Ansible pong'){
 
 steps{
 
-sh '/usr/local/bin/ansible-playbook -v -i ansible/inventory/hosts ansible/playbooks/deploy-code.yml' 
+sh '/usr/local/bin/ansible-playbook -vvvvvvvvvvvvvvvvvv  -i ansible/inventory/hosts ansible/playbooks/deploy-code.yml' 
 
 }
 }
