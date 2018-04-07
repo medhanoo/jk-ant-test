@@ -34,20 +34,16 @@ MSG = "PiplelineVariable"
     
     
     }
+stage('print environment') {
+	steps{
+		echo '=============================='
+		sh 'env'
+		echo '=============================='
+	}
+}	
+
 }  
 
-
-stage('print environment') {
-
-steps{
-
-echo '=============================='
-sh 'env'
-echo '=============================='
-}
-
-
-}	
 
 
 	post {
