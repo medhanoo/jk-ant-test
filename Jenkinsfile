@@ -44,8 +44,11 @@ stage('print environment') {
 
 stage('Ansible pong'){
 
+steps{
+
 sh 'ansible-playbook -vvvvv -i ansible/inventory/hosts ansible/playbooks/deploy-code.yml' 
 
+}
 }
 
 
