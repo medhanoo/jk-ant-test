@@ -5,6 +5,11 @@ agent {
 	label 'home'
 }
 
+environment {
+MSG = "PiplelineVariable"
+
+}
+
   stages {
   
     stage('build'){
