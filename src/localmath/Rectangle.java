@@ -1,4 +1,4 @@
-package localmath
+package localmath;
 
 public class Rectangle {
 	public int lenght;
@@ -10,11 +10,11 @@ public class Rectangle {
 	}
 	
 	public int getArea() {
-		return lenght * width 
+		return lenght * width; 
 	}
 	
 	public int getPerimeter() {
-		return 2 * (lenght + width)
+		return 2 * (lenght + width);
 	}
 	
 }
