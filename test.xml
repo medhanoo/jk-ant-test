@@ -8,9 +8,7 @@
 
   <path id="class.path">
     <pathelement location="./lib/junit-4.10.jar" />
-    <pathelement location="${build.dir}/localmath" />
-    <pathelement location="${build.dir}/dj" />
-    <pathelement location="${build.dir}/mytest" />
+    <pathelement location="${build.dir}" />
   </path>
 
   <target name="clean">
@@ -32,8 +30,7 @@
   <target name="test" depends="clean, makedir, compile">
     <junit printsummary="yes" fork="true">
       <classpath refid="class.path" />
-      <test name="RectangleTest" todir="${report.dir}" outfile="result">
-		  
+      <test name="mytest.RectangleTest" todir="${report.dir}" outfile="result">
         <formatter type="xml" />
       </test>
     </junit>
