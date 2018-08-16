@@ -8,6 +8,6 @@ public class Main
 	{
                 int num = Integer.parseInt(args[0]);	
                 Ops m1 = new Ops();
-        	System.out.println("Result is: " + m1.square(num));
+        	System.out.println("Squae of " + args[0] + " is :" + m1.square(num));
     	}
 }
